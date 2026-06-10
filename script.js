@@ -51,17 +51,32 @@ console.log(newString);
 
 
 // 9 Remove extra spaces from " Ahmed " using a string method.
+let name ="       ahmed            ";
+console.log(name.trim());
+
 
 // 10 Split "apple,banana,mango" into an array.
+let fruit ="apple,banana,mango";
+let arr = fruit.split(",");
+console.log(arr);
+
 
 // 11 Join ["Ali", "Ahmed", "Sara"] into a single string separated by commas.
+let names = ["Ali", "Ahmed", "Sara"];
+let join = names.join(",");
+console.log(join);
   
 // 12Count how many times the letter "a" appears in "JavaScript".
-
+let lat= "java script";
+let str= lat.split("a").length-1;
+console.log(str);
 
 
 //Practice Challenge
 // Reverse the string "hello" and output "olleh".
+let word= "hello";
+ console.log(word.split("").reverse().join(""));
+ 
 // Check if "madam" is a palindrome.
 // Capitalize the first letter of "javascript" and make it "Javascript".
 // Take a user's name from an input field and display:
